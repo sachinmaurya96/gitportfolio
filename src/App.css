@@ -1,38 +1,172 @@
-.App {
+.nav-2{
+  border-bottom: 1px solid rgb(176, 176, 176);
+}
+link{
+  text-decoration: none;
+}
+.active{
+  border-bottom: 2px solid orange;
+  
+}
+.social{
+  gap: 10px;
+  cursor: pointer;
+}
+.image img{
+  height: 300px ;
+  width: 300px;
+  border-radius: 50%;
+}
+
+
+.button-4 {
+  appearance: none;
+  background-color: #FAFBFC;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #24292E;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  padding: 6px 16px;
+  position: relative;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: break-word;
   text-align: center;
+  text-decoration: none;
+  margin: 10px 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button-4:hover {
+  background-color: #F3F4F6;
+  text-decoration: none;
+  transition-duration: 0.1s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button-4:disabled {
+  background-color: #FAFBFC;
+  border-color: rgba(27, 31, 35, 0.15);
+  color: #959DA5;
+  cursor: default;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.button-4:active {
+  background-color: #EDEFF2;
+  box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+  transition: none 0s;
+}
+
+.button-4:focus {
+  outline: 1px transparent;
+}
+
+.button-4:before {
+  display: none;
+}
+
+.button-4:-webkit-details-marker {
+  display: none;
+}
+.nav-link{
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 2px;
+}
+.navbar-nav{
+  gap: 20px;
+}
+nav .social a{
+ text-decoration: none;
+ color: #5d5e5f;
+}
+.contact a{
+  text-decoration: none;
+  color: #575858;
+}
+footer{
+  padding-top: 50px;
+  border-top: 1px solid rgb(176, 176, 176);
+}
+.footer{
+ display: grid;
+ grid-template-columns: 30% 70%;
+}
+footer .items{
+  display: flex;
+  gap: 15px;
+}
+footer .icon a{
+  text-decoration: none;
+  color: #575858;
+  font-size: 18px;
+}
+footer .items a{
+  text-decoration: none;
+  font-size: 14px;
 }
 
-.App-link {
-  color: #61dafb;
+.grid-2{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 1024px) {
+  .grid-2{
+   
+    grid-template-columns: 1fr;
+    
   }
-  to {
-    transform: rotate(360deg);
+  .navbar-nav{
+    gap: 10px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .header{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+  }
+  .image img{
+    height: 200px ;
+    width: 200px;
+    border-radius: 50%;
+  }
+  .contact{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .footer{
+    grid-template-columns: 100%;
+    align-items: center;
+   }
+   .footer .icon{
+    text-align: center;
+   }
+   footer .items{
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   }
+}
+@media only screen and (max-width: 426px) {
+  .header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
   }
 }
