@@ -1,7 +1,81 @@
 export const  projects = [
-
+    {
+        title:"Google Digital Garage",
+        description:"Ui clone of google digitle garage using pure HTML, CSS and javascriptg",
+        language:"HTML, CSS , Javascript",
+        type:"frontend",
+        github:"https://github.com/sachinmaurya96/google-digital-garage",
+        demo:"https://sachinmaurya96.github.io/google-digital-garage/",
+    },
+    {
+        title:"Personal portfolio",
+        description:"A modern, responsive and animated portfolio website using Vitejs , aos animation, and styled components",
+        language:"Vitejs, Aos animation, Styled Component",
+        type:"frontend",
+        github:"https://github.com/sachinmaurya96/myportfolio",
+        demo:"https://sm-portfolio-web.netlify.app/",
+    },
+    {
+        title:"Apple India",
+        description:"Responsive Apple india ui clone using HTML, CSS and javascript",
+        language:"HTML, CSS , Javascript",
+        type:"frontend",
+        github:"https://github.com/sachinmaurya96/Apple-india",
+        demo:"https://sachinmaurya96.github.io/Apple-india/",
+    },
+    {
+        title:"A mini freelance site",
+        description:"A mini freelanse ui clone using reactjs and bootstrap",
+        language:"HTML, CSS , Reactjs, Bootstrap",
+        type:"frontend",
+        github:"https://github.com/sachinmaurya96/findwork",
+        demo:"https://sachinmaurya96.github.io/findwork/",
+    },
+    {
+        title:"Movie website",
+        description:"a movie website using IMDB api",
+        language:"Html, css, React, IMDB Api",
+        type:"frontend",
+        github:"https://github.com/sachinmaurya96/movieapp",
+        demo:"https://smmovies.netlify.app/",
+    },
+    {
+        title:"Todo list",
+        description:"A todolist with multiple functionality like add edit and delete",
+        language:"React js",
+        type:"frontend",
+        github:"https://github.com/sachinmaurya96/reactTodolist",
+        demo:"https://sachinmaurya96.github.io/reactTodolist/",
+    },
+    {
+        title:"Textutils",
+        description:"A simple text editor for modifyin you text",
+        language:"Reactjs , Bootstrap",
+        type:"frontend",
+        github:"https://github.com/sachinmaurya96/Textutils",
+        demo:"https://sachinmaurya96.github.io/Textutils/",
+    },
+   
 ]
 
 export const repo = [
-    
+    {title:"gitportfolio", url:"https://github.com/sachinmaurya96/gitportfolio" },
+    {title:"Compleate-eccomerce", url:"https://github.com/sachinmaurya96/Compleate-eccomerce" },
+    {title:"RTK-query", url:"https://github.com/sachinmaurya96/RTK-query" },
+    {title:"react-redux", url:"https://github.com/sachinmaurya96/react-redux" },
+    {title:"redux-toolkit", url:"https://github.com/sachinmaurya96/redux-toolkit" },
+    {title:"redux", url:"https://github.com/sachinmaurya96/redux" },
+    {title:"reactreddux", url:"https://github.com/sachinmaurya96/reactreddux" },
+    {title:"myportfolio", url:"https://github.com/sachinmaurya96/myportfolio" },
+    {title:"csshelp", url:"https://github.com/sachinmaurya96/csshelp" },
+    {title:"document", url:"https://github.com/sachinmaurya96/document" },
+    {title:"myresume", url:"https://github.com/sachinmaurya96/myresume" },
+    {title:"weather-app-using-only-expressjs", url:"https://github.com/sachinmaurya96/weather-app-using-only-expressjs" },
+    {title:"findwork", url:"https://github.com/sachinmaurya96/findwork" },
+    {title:"google-digital-garage", url:"https://github.com/sachinmaurya96/google-digital-garage" },
+    {title:"Apple-india", url:"https://github.com/sachinmaurya96/Apple-india" },
+    {title:"movieapp", url:"https://github.com/sachinmaurya96/movieapp" },
+    {title:"reactTodolist", url:"https://github.com/sachinmaurya96/reactTodolist" },
+    {title:"rportfolio", url:"https://github.com/sachinmaurya96/rportfolio" },
+    {title:"Textutils", url:"https://github.com/sachinmaurya96/Textutils" },
 ]

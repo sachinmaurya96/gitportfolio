@@ -4,7 +4,7 @@
 link{
   text-decoration: none;
 }
-.active{
+.nav-2 .active{
   border-bottom: 2px solid orange;
   
 }
@@ -90,13 +90,14 @@ nav .social a{
  text-decoration: none;
  color: #5d5e5f;
 }
-.contact a{
+.contact__us a{
   text-decoration: none;
   color: #575858;
 }
 footer{
   padding-top: 50px;
   border-top: 1px solid rgb(176, 176, 176);
+  margin-top: 30px;
 }
 .footer{
  display: grid;
@@ -121,6 +122,25 @@ footer .items a{
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
 }
+.list__item{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 30px 0;
+  border-bottom: 2px solid rgb(109, 109, 109);
+}
+.repo__title{
+  text-transform: capitalize;
+  font-size: 18px;
+}
+.contact-inputs{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.contact-form{
+  margin-top: 30px;
+}
 @media only screen and (max-width: 1024px) {
   .grid-2{
    
@@ -132,7 +152,7 @@ footer .items a{
   }
 }
 @media only screen and (max-width: 768px) {
-  .header{
+  .head{
     display: flex;
     align-items: center;
     gap: 30px;
@@ -143,7 +163,7 @@ footer .items a{
     width: 200px;
     border-radius: 50%;
   }
-  .contact{
+  .contact__us{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -162,7 +182,7 @@ footer .items a{
    }
 }
 @media only screen and (max-width: 426px) {
-  .header{
+  .head{
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -25,13 +25,13 @@ function Navbar() {
           </a>
           <div className="social d-flex">
             <div className="github">
-              <a href="#"><RxGithubLogo size={30} title="github"/></a>
+              <a href="https://github.com/sachinmaurya96"><RxGithubLogo size={30} title="github"/></a>
             </div>
             <div className="linkdin">
-              <a href="#"><RxLinkedinLogo size={30} title="linkdin"/></a>
+              <a href="https://www.linkedin.com/in/sachin-maurya-826111267/"><RxLinkedinLogo size={30} title="linkdin"/></a>
             </div>
             <div className="cgprofile">
-             <a href="#"> <CgProfile size={30} title="Profile"/></a>
+             <NavLink to="resume"> <CgProfile size={30} title="Profile"/></NavLink>
             </div>
           </div>
         </div>
